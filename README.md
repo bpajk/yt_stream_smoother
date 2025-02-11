@@ -11,6 +11,7 @@ Installed Node.js
 * Build the project
 
   npm install
+  
   npm run build
 
 * Load the extension into Firefox by loading any file in the dist folder
