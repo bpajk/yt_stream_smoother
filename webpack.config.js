@@ -25,4 +25,5 @@ module.exports = {
       patterns: [{ from: "assets", to: "./" }],
     }),
   ],
+  devtool: "source-map",
 };
