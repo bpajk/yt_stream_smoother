@@ -18,14 +18,14 @@ function skipAdsInVideo(): void {
     mutationList: MutationRecord[],
     _observer: MutationObserver
   ) => {
-    const add_in_progress = mutationList.some(
+    const ad_in_progress = mutationList.some(
       (mutation) =>
         mutation.type === "attributes" &&
         mutation.attributeName === "class" &&
         (mutation.target as HTMLElement).classList.contains("ad-interrupting")
     );
 
-    if (!add_in_progress) {
+    if (!ad_in_progress) {
       return;
     }
 
