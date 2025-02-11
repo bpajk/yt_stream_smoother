@@ -1,2 +1,3 @@
 # yt_stream_smoother
-Skips video adds and removes popups
+Firefox extension for skipping YouTube ads and removing popups.
+
