@@ -1,5 +1,5 @@
 # yt_stream_smoother
-Firefox extension for skipping YouTube ads and removing pop-ups.
+Firefox extension for skipping YouTube ads and removing pop-ups. This is a proof of concept, so the extension is loaded as a temporary extension.
 
 ## Installation
 
@@ -14,6 +14,6 @@ Installed Node.js
   
   npm run build
 
-* Load the extension into Firefox by loading any file in the dist folder
+* Load the extension into Firefox by loading any file in the dist folder (Load Temporary Add-on...)
   
   about:debugging#/runtime/this-firefox
