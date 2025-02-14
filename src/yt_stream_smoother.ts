@@ -88,10 +88,10 @@ function hidePopup(targetNodeName: string, popupTagName: string): void {
       return;
     }
 
-    console.log("hidePopup");
+    console.log("hidePopup", popupTagName);
 
-    // hide the popup
-    (popup as HTMLElement).style.display = "none";
+    // delete the popup
+    (popup as HTMLElement).remove();
   };
 
   // Create an observer instance linked to the callback function
